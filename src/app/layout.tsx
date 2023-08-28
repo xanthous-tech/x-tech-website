@@ -23,11 +23,11 @@ export const metadata: Metadata = {
   title: 'X-Tech - We build software to help business grow',
   description:
     'X-Tech is a team of highly skilled software engineers and designers. We build software to help business grow.',
-  alternates: {
-    types: {
-      'application/rss+xml': `${process.env.NEXT_PUBLIC_SITE_URL}/feed.xml`,
-    },
-  },
+  // alternates: {
+  //   types: {
+  //     'application/rss+xml': `${process.env.NEXT_PUBLIC_SITE_URL}/feed.xml`,
+  //   },
+  // },
 }
 
 export default function RootLayout({
