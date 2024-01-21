@@ -53,14 +53,20 @@ export function Intro() {
         <span className="text-sky-300">help business grow.</span>
       </h1>
       <p className="mt-4 text-sm/6 text-gray-300">
-        Interested in working with us? Give us your email and we go from here.
+        We are a small team of developers and designers who love to build
+        products. We are passionate about our work and we love to work with
+        people who are passionate about their work too.
       </p>
-      <SignUpForm />
+      {/* <SignUpForm /> */}
       <div className="mt-8 flex flex-wrap justify-center gap-x-1 gap-y-3 sm:gap-x-2 lg:justify-start">
         {/* <IconLink href="#" icon={BookIcon} className="flex-none">
           Documentation
         </IconLink> */}
-        <IconLink href="https://github.com/xanthous-tech" icon={GitHubIcon} className="flex-none">
+        <IconLink
+          href="https://github.com/xanthous-tech"
+          icon={GitHubIcon}
+          className="flex-none"
+        >
           GitHub
         </IconLink>
         {/* <IconLink href="/feed.xml" icon={FeedIcon} className="flex-none">
