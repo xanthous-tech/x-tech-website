@@ -80,7 +80,7 @@ export function Intro() {
 export function IntroFooter() {
   return (
     <p className="flex items-baseline gap-x-2 text-[0.8125rem]/6 text-gray-500">
-      <span>© 2023 Xanthous Tech LLC</span>
+      <span>© 2024 Xanthous Tech LLC</span>
       {/* <IconLink href="#" icon={TwitterIcon} compact large>
         Joe Davola
       </IconLink> */}
