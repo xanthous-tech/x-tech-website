@@ -1,49 +1,21 @@
-import { type Metadata } from 'next'
-import { Inter } from 'next/font/google'
-import localFont from 'next/font/local'
-import clsx from 'clsx'
-
-import { Providers } from '@/app/providers'
-
-import '@/styles/tailwind.css'
-
-const inter = Inter({
-  subsets: ['latin'],
-  display: 'swap',
-  variable: '--font-inter',
-})
-
-const monaSans = localFont({
-  src: '../fonts/Mona-Sans.var.woff2',
-  display: 'swap',
-  variable: '--font-mona-sans',
-})
+import type { Metadata } from 'next';
+import { RootProvider } from 'fumadocs-ui/provider/next';
+import { appName, siteUrl } from '@/lib/shared';
+import './global.css';
 
 export const metadata: Metadata = {
-  title: 'X-Tech - We build software to help business grow',
-  description:
-    'X-Tech is a team of highly skilled software engineers and designers. We build software to help business grow.',
-  // alternates: {
-  //   types: {
-  //     'application/rss+xml': `${process.env.NEXT_PUBLIC_SITE_URL}/feed.xml`,
-  //   },
-  // },
-}
+  metadataBase: new URL(siteUrl),
+  title: { default: appName, template: `%s | ${appName}` },
+  description: 'Apps, support, and product information from Xanthous Tech LLC.',
+  openGraph: { siteName: appName, type: 'website', locale: 'en_US' },
+};
 
-export default function RootLayout({
-  children,
-}: {
-  children: React.ReactNode
-}) {
+export default function Layout({ children }: LayoutProps<'/'>) {
   return (
-    <html
-      lang="en"
-      className={clsx('h-full antialiased', inter.variable, monaSans.variable)}
-      suppressHydrationWarning
-    >
-      <body className="flex min-h-full flex-col bg-white dark:bg-gray-950">
-        <Providers>{children}</Providers>
+    <html lang="en" suppressHydrationWarning>
+      <body className="flex min-h-screen flex-col">
+        <RootProvider>{children}</RootProvider>
       </body>
     </html>
-  )
+  );
 }

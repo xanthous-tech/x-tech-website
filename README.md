@@ -1,86 +1,59 @@
-# Commit
+# Xanthous Tech website
 
-Commit is a [Tailwind UI](https://tailwindui.com) site template built using [Tailwind CSS](https://tailwindcss.com) and [Next.js](https://nextjs.org).
+A fresh Next.js + Fumadocs documentation site for Xanthous Tech LLC. Content is plain Markdown in `content/docs`; Fumadocs supplies the responsive sidebar, table of contents, search, and theme switch.
 
-## Getting started
+## Development
 
-To get started, first install dependencies via npm:
+Use Node.js 22+ and pnpm 10.33.2.
 
-```bash
-npm install
+```sh
+pnpm install
+pnpm dev
 ```
 
-Next, create a `.env.local` file in the root of your project and set the `NEXT_PUBLIC_SITE_URL` environment variable to your site's public URL:
+The default URL is http://localhost:3000. To use another port: `pnpm dev --port 3100`.
 
-```
-NEXT_PUBLIC_SITE_URL=https://example.com
-```
-
-Then start the development server:
-
-```bash
-npm run dev
+```sh
+pnpm lint
+pnpm types:check
+pnpm build
 ```
 
-Finally, open [http://localhost:3000](http://localhost:3000) in your browser to view the website.
+TypeScript is pinned to 6.0.3 because the starter’s ESLint parser currently supports TypeScript <6.1.0.
 
-## Customizing
+## Pages
 
-We've tried to build this template exactly the same way we'd build it if it we were building a real website, so there's no weird configuration files or global variables like you might see in a product that has been built as a "theme" rather than as an actual site.
+| Route | Content |
+| --- | --- |
+| `/` | Company introduction |
+| `/apps` | Apps directory |
+| `/apps/ringsizer` | Ring Sizer's App Store description |
+| `/apps/ringsizer/support` | Getting started, FAQ, and email support |
+| `/apps/ringsizer/privacy` | Ring Sizer privacy policy |
+| `/apps/ringsizer/terms` | Link to Apple's standard EULA |
+| `/history` | Rewritten company milestones from the previous site |
 
-Instead, you make changes by just opening the files you want to change, and changing whatever it is you want to change.
+## Adding another app
 
-We'll cover a lot of the fundamentals here to help you get going quickly, but at the end of the day the whole codebase is yours and you should feel free to edit everything directly as much as you need to.
+Create `content/docs/apps/<slug>/index.md`, `support.md`, `privacy.md`, and `terms.md` as needed. Add a `meta.json` with a readable title and page order, include the folder in `content/docs/apps/meta.json`, and add the app to the `/apps` directory page. Page URLs, navigation, search, metadata, social previews, and sitemap entries are derived from the content source.
 
-### Project structure
+Keep legal policies specific to the app. Do not copy Ring Sizer's on-device processing claims into a different app without checking its behavior.
 
-The template is built as a pretty standard Next.js website, but using the `src` folder so things like the `app` directory are located at `./src/app` instead of being top-level.
+## Fumadocs conventions
 
-### Title and metadata
+Bootstrapped separately with the official `create-fumadocs-app` Next.js/MDX template, then used to replace the old implementation. Uses the current Fumadocs MDX macro source, `loader()`, standard `DocsLayout` and `DocsPage`, shared MDX components, relative document links, and the built-in search route. Pages are prerendered with `generateStaticParams`; unknown documents return 404. Content stays in Server Components.
 
-You can update your site's metadata in `./src/app/layout.tsx`.
+- [Fumadocs CLI](https://www.fumadocs.dev/docs/cli/create-fumadocs-app)
+- [Page conventions](https://www.fumadocs.dev/docs/page-conventions)
+- [Docs layout](https://www.fumadocs.dev/docs/ui/layouts/docs)
+- [Fumadocs MDX](https://www.fumadocs.dev/docs/mdx)
 
-### Hero content
+## Migration and release
 
-The main hero section for the site that includes your logo, headline, description, and links are all located in `./src/components/Intro.tsx`.
+The previous Next.js 13/Tailwind UI implementation is preserved in Git at `ce624a2`. Its styles, components, assets, dependencies, and custom MDX pipeline are not carried into this project. The seven company milestones and company introduction were rewritten as Markdown in `/history` and `/`. Commented-out template demo posts were excluded.
 
-### Adding changelog entries
+Ring Sizer's description and privacy text come from `ring-sizer-app` release preparation at `4a28807`; the App Store description's wording is retained with Markdown headings. The app is marked as preparing for release until it is available. Update that availability text on the apps, overview, and FAQ pages after release.
 
-All of the changelog entries are stored in one big `./src/app/page.mdx` file. We were inspired to set it up this way by how projects commonly maintain plaintext `CHANGELOG` files, and thought it would be cool to parse this sort of format and turn it into a nicely designed site.
+Deploy with the standard Next.js build (`pnpm build`) and runtime (`pnpm start`), or a Next.js hosting integration. No application environment variables or external content services are required. The canonical site origin is defined in `src/lib/shared.ts`.
 
-Each changelog entry should be separated by a horizontal rule (`---`) and should include an `<h2>` with a date, specified as an [MDX annotation](https://github.com/bradlc/mdx-annotations):
-
-```md
----
-
-![](@/images/your-screenshot.png)
-
-## My new changelog entry {{ date: '2023-04-06T00:00Z' }}
-
-Your content...
-```
-
-### Newsletter
-
-You can find the newsletter sign up form in `./src/components/SignUpForm.tsx` — if you have a newsletter you'll want to wire this up with whatever mailing list software you use to get it to actually work.
-
-### RSS feed
-
-The site uses a [route handler](https://nextjs.org/docs/app/building-your-application/routing/router-handlers) to automatically generate an RSS feed at run time based on the rendered home page.
-
-You can edit the metadata for the feed (like the title and description) in `./src/app/feed.xml/route.ts`.
-
-Make sure to set your `NEXT_PUBLIC_SITE_URL` environment variable as the RSS feed needs this to generate the correct links for each entry.
-
-## License
-
-This site template is a commercial product and is licensed under the [Tailwind UI license](https://tailwindui.com/license).
-
-## Learn more
-
-To learn more about the technologies used in this site template, see the following resources:
-
-- [Tailwind CSS](https://tailwindcss.com/docs) - the official Tailwind CSS documentation
-- [Next.js](https://nextjs.org/docs) - the official Next.js documentation
-- [Motion One](https://motion.dev/) - the official Motion One documentation
-- [MDX](https://mdxjs.com/) - the official MDX documentation
+After deployment, verify `/apps/ringsizer`, `/apps/ringsizer/support`, and `/apps/ringsizer/privacy` publicly before adding the policy URL and submitting the iOS app. The existing App Store support URL points to the app overview, which links directly to support. This PR does not change the live website or App Store submission.
