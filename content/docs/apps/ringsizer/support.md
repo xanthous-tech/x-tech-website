@@ -65,7 +65,7 @@ Manage permissions in iOS Settings. If camera access is disabled, you can still 
 
 ## Is the app free, and which iPhones can use it?
 
-Ring Sizer is free, with no in-app purchases or subscriptions. It requires an iPhone running iOS 18 or later. We are preparing the first App Store release.
+Ring Sizer is free, with no in-app purchases or subscriptions. It requires an iPhone running iOS 18 or later.
 
 ## Still need help?
 

@@ -25,6 +25,6 @@ Results are estimates, not a guaranteed fit. Lighting, camera angle, object heig
 
 ## Availability and help
 
-Free for iPhone with iOS 18 or later. We are preparing the first App Store release.
+Free for iPhone with iOS 18 or later.
 
 [Support & FAQ](/apps/ringsizer/support) · [Privacy policy](/apps/ringsizer/privacy) · [Terms of use](/apps/ringsizer/terms)

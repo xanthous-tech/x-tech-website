@@ -52,7 +52,7 @@ Bootstrapped separately with the official `create-fumadocs-app` Next.js/MDX temp
 
 The previous Next.js 13/Tailwind UI implementation is preserved in Git at `ce624a2`. Its styles, components, assets, dependencies, and custom MDX pipeline are not carried into this project. The seven company milestones and company introduction were rewritten as Markdown in `/history` and `/`. Commented-out template demo posts were excluded.
 
-Ring Sizer's description and privacy text come from `ring-sizer-app` release preparation at `4a28807`; the App Store description's wording is retained with Markdown headings. The app is marked as preparing for release until it is available. Update that availability text on the apps, overview, and FAQ pages after release.
+Ring Sizer's description and privacy text come from `ring-sizer-app` release preparation at `4a28807`; the App Store description's wording is retained with Markdown headings.
 
 Deploy with the standard Next.js build (`pnpm build`) and runtime (`pnpm start`), or a Next.js hosting integration. No application environment variables or external content services are required. The canonical site origin is defined in `src/lib/shared.ts`.
 
