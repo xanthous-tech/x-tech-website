@@ -3,7 +3,7 @@ title: Support & FAQ
 description: Getting started, clearer measurements, and help with Ring Sizer.
 ---
 
-Need help? Email [ringsizer@x-tech.io](mailto:ringsizer@x-tech.io). Include your app version (Settings → About), iPhone model, and a short description of what happened. Screenshots are optional; keep personal card details out of anything you send.
+Need help? Email [ringsizer@x-tech.io](mailto:ringsizer@x-tech.io). Include your app version (Settings → About), phone model, and a short description of what happened. Screenshots are optional; keep personal card details out of anything you send.
 
 ## How do I measure a ring?
 
@@ -33,7 +33,7 @@ Try a clearer background, brighter diffuse light, and a sharper photo. Remove ot
 
 ## Can I use a card without personal information?
 
-Yes. A plain discount or membership card is suitable if it is exactly the standard size above. Avoid bent cards and cards with nonstandard dimensions. Ring Sizer processes measurements on your iPhone and does not upload measurement photos to a server.
+Yes. A plain discount or membership card is suitable if it is exactly the standard size above. Avoid bent cards and cards with nonstandard dimensions. Ring Sizer processes measurements on your phone and does not upload measurement photos to a server.
 
 ## Which sizes and units are supported?
 
@@ -45,23 +45,23 @@ Choose your region and millimeters or inches in Settings. Use Converter to compa
 
 Confirmed measurements appear in History. Open a result to review its photo, adjustments, sizes, and notes.
 
-The measurement folders are also available in **Files → On My iPhone → Ring Sizer → Measurements**. They contain the photo, result, and analysis details. Files and backups you choose to share or copy are controlled by you and their providers.
+On iPhone, the measurement folders are also available in **Files → On My iPhone → Ring Sizer → Measurements**. They contain the photo, result, and analysis details. On Android, measurements are kept in the app's private storage and are not visible in a files app. Files and backups you choose to share or copy are controlled by you and their providers.
 
 ## How do I delete measurements?
 
-Delete one measurement from History or its result screen. To clear everything, open **Settings → Saved measurements → Delete all measurements**.
+Delete one measurement from History or its result screen. To clear everything, open **Settings → Saved measurements → Delete all measurements** on iPhone, or **Settings → Delete all measurements** on Android. On Android, uninstalling the app also removes them.
 
-Deleting a measurement does not remove its source image from Photos, copies you have shared, or existing device or iCloud backups. See the [privacy policy](/apps/ringsizer/privacy) for details.
+Deleting a measurement does not remove its source image from your photo library, copies you have shared, or existing backups (such as device, iCloud or Google account backups). See the [privacy policy](/apps/ringsizer/privacy) for details.
 
 ## Do I need an account or internet connection?
 
-No account or internet connection is needed to measure. Image processing runs on your iPhone. Opening external websites or sending a support email requires a connection. Ring Sizer has no advertising or cross-app tracking.
+No account or internet connection is needed to measure. Image processing runs on your phone. The Android app has no internet permission at all. Opening external websites or sending a support email requires a connection. Ring Sizer has no advertising or cross-app tracking.
 
 ## Why does the app need camera or motion access?
 
-The camera takes measurement photos. Motion readings support the level guide and capture tilt information. The photo picker gives the app only the images you choose. Imported photos may include image metadata, but they do not include the app's live camera-motion readings.
+The camera takes measurement photos. Motion readings (the accelerometer on Android) support the level guide and capture tilt information. The photo picker gives the app only the images you choose. Imported photos may include image metadata, but they do not include the app's live camera-motion readings.
 
-Manage permissions in iOS Settings. If camera access is disabled, you can still select an existing photo using the photo picker.
+Manage permissions in iOS Settings or Android Settings. On Android, the app does not request storage or media permission. If camera access is disabled, you can still select an existing photo using the photo picker.
 
 ## Is the app free, and which iPhones can use it?
 
