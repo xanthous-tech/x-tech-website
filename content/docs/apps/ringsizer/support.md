@@ -63,9 +63,9 @@ The camera takes measurement photos. Motion readings (the accelerometer on Andro
 
 Manage permissions in iOS Settings or Android Settings. On Android, the app does not request storage or media permission. If camera access is disabled, you can still select an existing photo using the photo picker.
 
-## Is the app free, and which iPhones can use it?
+## Is the app free, and which phones can use it?
 
-Ring Sizer is free, with no in-app purchases or subscriptions. It requires an iPhone running iOS 18 or later.
+Ring Sizer is free, with no in-app purchases or subscriptions. The Android app is available on [Google Play](https://play.google.com/store/apps/details?id=io.xtech.ringsizer) for phones running Android 9 or later. The iPhone version, for iOS 18 or later, is coming soon to the App Store.
 
 ## Still need help?
 
