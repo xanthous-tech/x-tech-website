@@ -1,7 +1,8 @@
 {
   "title": "Apps",
   "pages": [
-    "ringsizer"
+    "ringsizer",
+    "formz"
   ],
   "defaultOpen": true
 }
