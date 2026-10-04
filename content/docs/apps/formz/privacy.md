@@ -29,7 +29,7 @@ To keep you signed in, our server stores a session with its creation and expiry 
 
 ## Usage analytics
 
-Formz uses PostHog to understand how the app is used and to improve it. It records app events (such as opening the app, screens viewed, which buttons are used, and actions like creating or publishing a form, with counts and error codes), along with your Formz account ID and device and app details such as model, operating system, app version, and language. It never records your email address, form titles, questions, or responses. Analytics data is linked to your Formz account ID, kept for up to one year, and deleted with your account on request.
+Formz uses PostHog to understand how the app is used and to improve it. It records app events (such as opening the app, screens viewed, which buttons are used, and actions like creating or publishing a form, with counts and error codes), along with your Formz account ID and device and app details such as model, operating system, app version, and language. It never records your email address, form titles, questions, or responses. Analytics data is linked to your Formz account ID, kept for up to one year, and we delete it on request.
 
 Formz has no advertising or cross-app tracking. We do not sell your information or use it for advertising.
 
