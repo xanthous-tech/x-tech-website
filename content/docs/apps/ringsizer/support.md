@@ -65,7 +65,7 @@ Manage permissions in iOS Settings or Android Settings. On Android, the app does
 
 ## Is the app free, and which phones can use it?
 
-Ring Sizer is free, with no in-app purchases or subscriptions. The Android app is available on [Google Play](https://play.google.com/store/apps/details?id=io.xtech.ringsizer) for phones running Android 9 or later. The iPhone version, for iOS 18 or later, is coming soon to the App Store.
+Ring Sizer is free, with no in-app purchases or subscriptions. It is available on the [App Store](https://apps.apple.com/us/app/ring-sizer-measure-by-camera/id6814165985) for iPhone with iOS 18 or later, and on [Google Play](https://play.google.com/store/apps/details?id=io.xtech.ringsizer) for phones running Android 9 or later.
 
 ## Still need help?
 
