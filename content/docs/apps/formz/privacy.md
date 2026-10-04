@@ -27,7 +27,11 @@ Form content and responses are retrieved from Google when you open them and sent
 
 To keep you signed in, our server stores a session with its creation and expiry times, IP address, and device type (user agent). Our hosting provider records operational logs of requests, such as IP address, time, and address requested, to run and secure the service. On your phone, Formz keeps its sign-in session in the system's secure storage and remembers whether you have seen its tips.
 
-Formz has no advertising, analytics SDKs, or cross-app tracking. We do not sell your information or use it for advertising.
+## Usage analytics
+
+Formz uses PostHog to understand how the app is used and to improve it. It records app events (such as opening the app, screens viewed, which buttons are used, and actions like creating or publishing a form, with counts and error codes), along with your Formz account ID and device and app details such as model, operating system, app version, and language. It never records your email address, form titles, questions, or responses. Analytics data is linked to your Formz account ID, kept for up to one year, and deleted with your account on request.
+
+Formz has no advertising or cross-app tracking. We do not sell your information or use it for advertising.
 
 ## Google API Services User Data Policy
 
@@ -35,7 +39,7 @@ Formz's use and transfer of information received from Google APIs to any other a
 
 ## Service providers
 
-Formz's server and database run on Cloudflare. Sign-in and form features are provided by Google's APIs, whose use of your information is governed by [Google's Privacy Policy](https://policies.google.com/privacy). We share information with these providers only to operate Formz.
+Formz's server and database run on Cloudflare. Usage analytics are processed by PostHog. Sign-in and form features are provided by Google's APIs, whose use of your information is governed by [Google's Privacy Policy](https://policies.google.com/privacy). We share information with these providers only to operate Formz.
 
 ## Retention and deletion
 
