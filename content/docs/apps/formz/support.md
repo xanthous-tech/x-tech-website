@@ -23,6 +23,10 @@ Links you send to respondents (`forms.gle/…` or links containing `/d/e/`) only
 
 Tap **+**, then **Choose from Google Drive**, and pick one or more forms. On Android, Formz uses the Google account on your phone; if Google Drive doesn't open, add the account in **Android Settings → Accounts** and try again.
 
+## How do I remove a form from My forms?
+
+Open the form, tap **⋯**, then **Remove from Formz**. This only takes it out of your Formz list: the form, its responses, and its Drive file stay in Google Forms. To add it back, choose it from Google Drive or paste its link again.
+
 ## When are my changes saved?
 
 Edits stay on your phone until you tap **Save**. Then they're saved to Google Forms and appear everywhere you use it. If you leave a form with unsaved changes, Formz asks before discarding them.
