@@ -3,7 +3,7 @@ title: Privacy policy
 description: How Formz accesses, uses, shares, protects, and deletes your Google data and other information.
 ---
 
-Effective October 9, 2026. Formz for iPhone and Android is provided by Xanthous Tech LLC ("we"). This policy explains what Formz collects, how it is used, and the choices you have.
+Effective October 11, 2026. Formz for iPhone and Android is provided by Xanthous Tech LLC ("we"). This policy explains what Formz collects, how it is used, and the choices you have.
 
 ## How Formz works
 
@@ -36,11 +36,11 @@ Formz does not share, sell, or transfer Google user data to third parties. Form 
 
 ### How Formz stores and protects Google data
 
-All traffic between your phone, Formz's server, and Google is encrypted with HTTPS (TLS). Formz's server does not keep copies of your forms or responses: they are retrieved from Google when you open them and sent to your phone. Our database stores only your account details, encrypted Google tokens, and the ID and title of forms you opened by link, so they stay in your form list. Access to production systems is limited to the people who operate Formz. On your phone, Formz keeps its sign-in session in the system's secure storage, and unsaved edits stay on your phone only until you save or leave the form.
+All traffic between your phone, Formz's server, and Google is encrypted with HTTPS (TLS). Formz's server does not keep copies of your forms or responses: they are retrieved from Google when you open them and sent to your phone. Our database stores only your account details, encrypted Google tokens, and the ID and title of forms you opened by link, so they stay in your form list, and the ID of forms you removed from Formz, so they stay hidden. Access to production systems is limited to the people who operate Formz. On your phone, Formz keeps its sign-in session in the system's secure storage, and unsaved edits stay on your phone only until you save or leave the form.
 
 ### Retention and deletion of Google data
 
-We keep your Google account details, tokens, and saved form links only while your Formz account exists. When you delete your account in **Settings → Delete account**, Formz deletes them and asks Google to revoke Formz's access. You can also remove Formz's access at any time in your [Google Account permissions](https://myaccount.google.com/connections). Deleting your Formz account does not delete forms, responses, or files in your Google account.
+We keep your Google account details, tokens, saved form links, and the IDs of forms you removed only while your Formz account exists. When you delete your account in **Settings → Delete account**, Formz deletes them and asks Google to revoke Formz's access. You can also remove Formz's access at any time in your [Google Account permissions](https://myaccount.google.com/connections). Deleting your Formz account does not delete forms, responses, or files in your Google account.
 
 ### Google API Services User Data Policy
 
@@ -64,7 +64,7 @@ Formz's server and database run on Cloudflare. Usage analytics are processed by 
 
 We keep your account information while your Formz account exists. Signing out ends the session on your phone. Expired sessions are removed.
 
-Delete your account in **Settings → Delete account**. This deletes your Formz account, sessions, stored Google tokens, and saved form links, and asks Google to revoke Formz's access. If you can't use the app, email [formz@x-tech.io](mailto:formz@x-tech.io) from your account's email address and we will delete your account. Hosting logs and backups expire on their providers' schedules.
+Delete your account in **Settings → Delete account**. This deletes your Formz account, sessions, stored Google tokens, saved form links, and the list of forms you removed, and asks Google to revoke Formz's access. If you can't use the app, email [formz@x-tech.io](mailto:formz@x-tech.io) from your account's email address and we will delete your account. Hosting logs and backups expire on their providers' schedules.
 
 ## Support
 
