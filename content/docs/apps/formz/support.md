@@ -27,6 +27,12 @@ Tap **+**, then **Choose from Google Drive**, and pick one or more forms. On And
 
 Open the form, tap **⋯**, then **Remove from Formz**. This only takes it out of your Formz list: the form, its responses, and its Drive file stay in Google Forms. To add it back, choose it from Google Drive or paste its link again.
 
+## Why do my forms come back after I sign in again?
+
+Google Drive remembers which files you shared with Formz: the forms you created in it or chose with Google's file picker. Deleting your Formz account or removing Formz from your Google Account doesn't clear that list, so those forms appear again if you sign in later.
+
+To clear it, open [Google Drive](https://drive.google.com) on the web, go to **Settings → Manage apps**, find **Formz**, and choose **Options → Disconnect from Drive**. Formz then can't see any of your Drive files until you pick them again. Your forms and responses aren't changed.
+
 ## When are my changes saved?
 
 Edits stay on your phone until you tap **Save**. Then they're saved to Google Forms and appear everywhere you use it. If you leave a form with unsaved changes, Formz asks before discarding them.
@@ -47,7 +53,7 @@ Formz needs your permission again, for example after you removed its access in y
 
 In Formz, open **Settings → Delete account** and confirm. This deletes your Formz account, signs you out, revokes Formz's access to your Google account, and removes the form links Formz saved for you. Your forms, responses, and Drive files stay in your Google account.
 
-If you can't open the app, email [formz@x-tech.io](mailto:formz@x-tech.io) from the email address of your Google account and ask us to delete your Formz account. You can also remove Formz's access in your [Google Account permissions](https://myaccount.google.com/connections).
+If you can't open the app, email [formz@x-tech.io](mailto:formz@x-tech.io) from the email address of your Google account and ask us to delete your Formz account. You can also remove Formz's access in your [Google Account permissions](https://myaccount.google.com/connections). To also clear the list of forms Google Drive shared with Formz, [disconnect Formz from Drive](#why-do-my-forms-come-back-after-i-sign-in-again).
 
 ## Is Formz free?
 
