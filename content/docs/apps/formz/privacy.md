@@ -40,7 +40,7 @@ All traffic between your phone, Formz's server, and Google is encrypted with HTT
 
 ### Retention and deletion of Google data
 
-We keep your Google account details, tokens, saved form links, and the IDs of forms you removed only while your Formz account exists. When you delete your account in **Settings → Delete account**, Formz deletes them and asks Google to revoke Formz's access. You can also remove Formz's access at any time in your [Google Account permissions](https://myaccount.google.com/connections). Deleting your Formz account does not delete forms, responses, or files in your Google account.
+We keep your Google account details, tokens, saved form links, and the IDs of forms you removed only while your Formz account exists. When you delete your account in **Settings → Delete account**, Formz deletes them and asks Google to revoke Formz's access. You can also remove Formz's access at any time in your [Google Account permissions](https://myaccount.google.com/connections). Google Drive separately remembers which files you shared with Formz; to clear that, open Google Drive's **Settings → Manage apps** and choose **Disconnect from Drive** for Formz. Deleting your Formz account does not delete forms, responses, or files in your Google account.
 
 ### Google API Services User Data Policy
 
