@@ -3,7 +3,7 @@ title: Privacy policy
 description: How Formz accesses, uses, shares, protects, and deletes your Google data and other information.
 ---
 
-Effective October 11, 2026. Formz for iPhone and Android is provided by Xanthous Tech LLC ("we"). This policy explains what Formz collects, how it is used, and the choices you have.
+Effective November 25, 2026. Formz for iPhone and Android is provided by Xanthous Tech LLC ("we"). This policy explains what Formz collects, how it is used, and the choices you have.
 
 ## How Formz works
 
@@ -56,15 +56,27 @@ Formz uses PostHog to understand how the app is used and to improve it. It recor
 
 Formz has no advertising or cross-app tracking. We do not sell your information or use it for advertising.
 
+## Crash and error reporting
+
+Formz uses PostHog to collect crash and error reports so we can find and fix problems. On your phone, Formz captures app errors and crashes (a crash is stored on the phone and sent the next time you open Formz). On Formz's server, Formz records unexpected server errors.
+
+Before a report is sent, Formz removes its content: it keeps only the type of error, a fixed error message or category, and the code locations where it happened. Reports also carry your Formz account ID and the same app and device details as usage analytics, such as phone model, operating system, app version, language, and the screen you were on. They never include your email address, form titles, questions, responses, request contents, or Google tokens.
+
+## Purchases and subscriptions
+
+Formz Premium subscriptions and the lifetime purchase are billed and processed by Apple (App Store) or Google (Google Play). Formz never receives your payment card details.
+
+Formz uses RevenueCat as a service provider to check whether you have Formz Premium on each of your devices. RevenueCat receives your Formz account ID, which is not your email address or name, your purchase and subscription history from the App Store or Google Play, and basic device and app details its SDK sends with each request, such as phone model, operating system, app version, language and store country, and your IP address. When you delete your Formz account, the purchase record stays with RevenueCat under that account ID, which then no longer links to your email address or Google account, so your purchase can still be restored from the App Store or Google Play and for billing and tax records. Email [formz@x-tech.io](mailto:formz@x-tech.io) if you want it deleted too.
+
 ## Service providers
 
-Formz's server and database run on Cloudflare. Usage analytics are processed by PostHog. Sign-in and form features are provided by Google's APIs, whose use of your information is governed by [Google's Privacy Policy](https://policies.google.com/privacy). We share information with these providers only to operate Formz.
+Formz's server and database run on Cloudflare. Usage analytics and crash reports are processed by PostHog. In-app purchases and subscriptions are checked and managed through RevenueCat. Sign-in and form features are provided by Google's APIs, whose use of your information is governed by [Google's Privacy Policy](https://policies.google.com/privacy). We share information with these providers only to operate Formz.
 
 ## Retention and deletion
 
 We keep your account information while your Formz account exists. Signing out ends the session on your phone. Expired sessions are removed.
 
-Delete your account in **Settings → Delete account**. This deletes your Formz account, sessions, stored Google tokens, saved form links, and the list of forms you removed, and asks Google to revoke Formz's access. If you can't use the app, email [formz@x-tech.io](mailto:formz@x-tech.io) from your account's email address and we will delete your account. Hosting logs and backups expire on their providers' schedules.
+Delete your account in **Settings → Delete account**. This deletes your Formz account, sessions, stored Google tokens, saved form links, and the list of forms you removed, and asks Google to revoke Formz's access. Your purchase record stays with RevenueCat without your email address (see [Purchases and subscriptions](#purchases-and-subscriptions)). Deleting your account does not cancel a subscription: billing continues through the App Store or Google Play, so cancel it there first. If you can't use the app, email [formz@x-tech.io](mailto:formz@x-tech.io) from your account's email address and we will delete your account. Hosting logs and backups expire on their providers' schedules.
 
 ## Support
 

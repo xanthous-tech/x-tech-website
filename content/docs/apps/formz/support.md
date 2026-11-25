@@ -53,11 +53,19 @@ Formz needs your permission again, for example after you removed its access in y
 
 In Formz, open **Settings → Delete account** and confirm. This deletes your Formz account, signs you out, revokes Formz's access to your Google account, and removes the form links Formz saved for you. Your forms, responses, and Drive files stay in your Google account.
 
+Deleting your Formz account does not cancel a subscription. Billing continues through the App Store or Google Play, so [cancel your subscription](#how-do-i-cancel-or-restore-formz-premium) first. Your purchase record stays with RevenueCat, the service Formz uses to check Premium, under an account ID with no email address; email [formz@x-tech.io](mailto:formz@x-tech.io) if you want it deleted too.
+
 If you can't open the app, email [formz@x-tech.io](mailto:formz@x-tech.io) from the email address of your Google account and ask us to delete your Formz account. You can also remove Formz's access in your [Google Account permissions](https://myaccount.google.com/connections). To also clear the list of forms Google Drive shared with Formz, [disconnect Formz from Drive](#why-do-my-forms-come-back-after-i-sign-in-again).
 
 ## Is Formz free?
 
-Yes. Formz is free, with no ads.
+The demo is free and needs no sign-in. Creating, opening, and adding your own Google Forms needs Formz Premium: weekly with a 3-day free trial, annual, or a one-time lifetime purchase. The app shows the price for your country before you buy. Formz has no ads.
+
+## How do I cancel or restore Formz Premium?
+
+Subscriptions renew automatically until you cancel them. On iPhone, cancel in **Settings → your name → Subscriptions**; on Android, in **Google Play → Payments & subscriptions → Subscriptions**. You can also open this from Formz: **Settings → Manage**. Cancelling stops the next renewal; Premium stays on until the end of the period you paid for.
+
+On a new phone or after reinstalling, sign in with the same Google account and tap **Settings → Restore purchases**. Use the same Apple Account or Google Play account you bought Premium with. Refunds are handled by Apple or Google under their refund policies.
 
 ## Still need help?
 
