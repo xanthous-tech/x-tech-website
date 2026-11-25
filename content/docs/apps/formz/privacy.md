@@ -60,13 +60,13 @@ Formz has no advertising or cross-app tracking. We do not sell your information 
 
 Formz uses PostHog to collect crash and error reports so we can find and fix problems. On your phone, Formz captures app errors and crashes (a crash is stored on the phone and sent the next time you open Formz). On Formz's server, Formz records unexpected server errors.
 
-Error reports contain only the type of error, a fixed error message or category, the code locations where it happened, and your Formz account ID. They never include your email address, form titles, questions, responses, request contents, or Google tokens.
+Before a report is sent, Formz removes its content: it keeps only the type of error, a fixed error message or category, and the code locations where it happened. Reports also carry your Formz account ID and the same app and device details as usage analytics, such as phone model, operating system, app version, language, and the screen you were on. They never include your email address, form titles, questions, responses, request contents, or Google tokens.
 
 ## Purchases and subscriptions
 
 Formz Premium subscriptions and the lifetime purchase are billed and processed by Apple (App Store) or Google (Google Play). Formz never receives your payment card details.
 
-Formz uses RevenueCat as a service provider to check whether you have Formz Premium on each of your devices. RevenueCat receives your Formz account ID, which is not your email address or name, and your purchase and subscription history from the App Store or Google Play. When you delete your Formz account, the purchase record stays with RevenueCat under that account ID, which then no longer links to your email address or Google account, so your purchase can still be restored from the App Store or Google Play and for billing and tax records. Email [formz@x-tech.io](mailto:formz@x-tech.io) if you want it deleted too.
+Formz uses RevenueCat as a service provider to check whether you have Formz Premium on each of your devices. RevenueCat receives your Formz account ID, which is not your email address or name, your purchase and subscription history from the App Store or Google Play, and basic device and app details its SDK sends with each request, such as phone model, operating system, app version, language and store country, and your IP address. When you delete your Formz account, the purchase record stays with RevenueCat under that account ID, which then no longer links to your email address or Google account, so your purchase can still be restored from the App Store or Google Play and for billing and tax records. Email [formz@x-tech.io](mailto:formz@x-tech.io) if you want it deleted too.
 
 ## Service providers
 
