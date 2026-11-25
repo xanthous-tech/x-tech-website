@@ -66,7 +66,7 @@ Error reports contain only the type of error, a fixed error message or category,
 
 Formz Premium subscriptions and the lifetime purchase are billed and processed by Apple (App Store) or Google (Google Play). Formz never receives your payment card details.
 
-Formz uses RevenueCat as a service provider to check whether you have Formz Premium on each of your devices. RevenueCat receives your Formz account ID, which is not your email address or name, and your purchase and subscription history from the App Store or Google Play.
+Formz uses RevenueCat as a service provider to check whether you have Formz Premium on each of your devices. RevenueCat receives your Formz account ID, which is not your email address or name, and your purchase and subscription history from the App Store or Google Play. When you delete your Formz account, Formz also asks RevenueCat to delete that record. Apple and Google keep their own records of your transactions under their policies.
 
 ## Service providers
 
@@ -76,7 +76,7 @@ Formz's server and database run on Cloudflare. Usage analytics and crash reports
 
 We keep your account information while your Formz account exists. Signing out ends the session on your phone. Expired sessions are removed.
 
-Delete your account in **Settings → Delete account**. This deletes your Formz account, sessions, stored Google tokens, saved form links, and the list of forms you removed, and asks Google to revoke Formz's access. If you can't use the app, email [formz@x-tech.io](mailto:formz@x-tech.io) from your account's email address and we will delete your account. Hosting logs and backups expire on their providers' schedules.
+Delete your account in **Settings → Delete account**. This deletes your Formz account, sessions, stored Google tokens, saved form links, and the list of forms you removed, asks Google to revoke Formz's access, and asks RevenueCat to delete your purchase record. Deleting your account does not cancel a subscription: billing continues through the App Store or Google Play, so cancel it there first. If you can't use the app, email [formz@x-tech.io](mailto:formz@x-tech.io) from your account's email address and we will delete your account. Hosting logs and backups expire on their providers' schedules.
 
 ## Support
 
