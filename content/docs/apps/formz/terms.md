@@ -8,6 +8,12 @@ Formz is provided by Xanthous Tech LLC.
 - **iPhone:** use of the app is governed by [Apple’s Standard Licensed Application End User License Agreement (EULA)](https://www.apple.com/legal/internet-services/itunes/dev/stdeula/).
 - **Android:** the app is distributed through Google Play, and your use of it is subject to the [Google Play Terms of Service](https://play.google.com/intl/en-US_us/about/play-terms/index.html).
 
+## Formz Premium
+
+Creating, opening, and adding your own forms in Formz needs Formz Premium. You can choose a weekly subscription with a 3-day free trial, an annual subscription, or a one-time lifetime purchase. Prices for your country are shown in the app before you buy.
+
+Payment is charged to your Apple Account or Google Play account when you confirm the purchase, or when a free trial ends. A subscription renews automatically at the same price for the same period unless you cancel it at least 24 hours before the current period ends. Manage or cancel it in your Apple Account or Google Play subscription settings. Deleting your Formz account does not cancel a subscription. Refunds are handled by Apple or Google under their policies.
+
 Formz works with your Google account. Your use of Google Forms and Google Drive remains subject to [Google’s Terms of Service](https://policies.google.com/terms), and you are responsible for the forms you create and share and the responses you collect.
 
 Formz is an independent app and is not affiliated with or endorsed by Google. Google Forms and Google Drive are trademarks of Google LLC.

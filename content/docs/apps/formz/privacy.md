@@ -3,7 +3,7 @@ title: Privacy policy
 description: How Formz accesses, uses, shares, protects, and deletes your Google data and other information.
 ---
 
-Effective October 11, 2026. Formz for iPhone and Android is provided by Xanthous Tech LLC ("we"). This policy explains what Formz collects, how it is used, and the choices you have.
+Effective [DATE], 2026. Formz for iPhone and Android is provided by Xanthous Tech LLC ("we"). This policy explains what Formz collects, how it is used, and the choices you have.
 
 ## How Formz works
 
@@ -56,9 +56,21 @@ Formz uses PostHog to understand how the app is used and to improve it. It recor
 
 Formz has no advertising or cross-app tracking. We do not sell your information or use it for advertising.
 
+## Crash and error reporting
+
+Formz uses PostHog to collect crash and error reports so we can find and fix problems. On your phone, Formz captures app errors and crashes (a crash is stored on the phone and sent the next time you open Formz). On Formz's server, Formz records unexpected server errors.
+
+Error reports contain only the type of error, a fixed error message or category, the code locations where it happened, and your Formz account ID. They never include your email address, form titles, questions, responses, request contents, or Google tokens.
+
+## Purchases and subscriptions
+
+Formz Premium subscriptions and the lifetime purchase are billed and processed by Apple (App Store) or Google (Google Play). Formz never receives your payment card details.
+
+Formz uses RevenueCat as a service provider to check whether you have Formz Premium on each of your devices. RevenueCat receives your Formz account ID, which is not your email address or name, and your purchase and subscription history from the App Store or Google Play.
+
 ## Service providers
 
-Formz's server and database run on Cloudflare. Usage analytics are processed by PostHog. Sign-in and form features are provided by Google's APIs, whose use of your information is governed by [Google's Privacy Policy](https://policies.google.com/privacy). We share information with these providers only to operate Formz.
+Formz's server and database run on Cloudflare. Usage analytics and crash reports are processed by PostHog. In-app purchases and subscriptions are checked and managed through RevenueCat. Sign-in and form features are provided by Google's APIs, whose use of your information is governed by [Google's Privacy Policy](https://policies.google.com/privacy). We share information with these providers only to operate Formz.
 
 ## Retention and deletion
 

@@ -57,7 +57,13 @@ If you can't open the app, email [formz@x-tech.io](mailto:formz@x-tech.io) from 
 
 ## Is Formz free?
 
-Yes. Formz is free, with no ads.
+The demo is free and needs no sign-in. Creating, opening, and adding your own Google Forms needs Formz Premium: weekly with a 3-day free trial, annual, or a one-time lifetime purchase. The app shows the price for your country before you buy. Formz has no ads.
+
+## How do I cancel or restore Formz Premium?
+
+Subscriptions renew automatically until you cancel them. On iPhone, cancel in **Settings → your name → Subscriptions**; on Android, in **Google Play → Payments & subscriptions → Subscriptions**. You can also open this from Formz: **Settings → Manage**. Cancelling stops the next renewal; Premium stays on until the end of the period you paid for.
+
+On a new phone or after reinstalling, sign in with the same Google account and tap **Settings → Restore purchases**. Use the same Apple Account or Google Play account you bought Premium with. Refunds are handled by Apple or Google under their refund policies.
 
 ## Still need help?
 
