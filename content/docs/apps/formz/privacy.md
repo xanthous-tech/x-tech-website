@@ -3,7 +3,7 @@ title: Privacy policy
 description: How Formz accesses, uses, shares, protects, and deletes your Google data and other information.
 ---
 
-Effective [DATE], 2026. Formz for iPhone and Android is provided by Xanthous Tech LLC ("we"). This policy explains what Formz collects, how it is used, and the choices you have.
+Effective November 25, 2026. Formz for iPhone and Android is provided by Xanthous Tech LLC ("we"). This policy explains what Formz collects, how it is used, and the choices you have.
 
 ## How Formz works
 
