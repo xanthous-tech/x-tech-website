@@ -53,6 +53,8 @@ Formz needs your permission again, for example after you removed its access in y
 
 In Formz, open **Settings → Delete account** and confirm. This deletes your Formz account, signs you out, revokes Formz's access to your Google account, and removes the form links Formz saved for you. Your forms, responses, and Drive files stay in your Google account.
 
+Deleting your Formz account does not cancel a subscription. Billing continues through the App Store or Google Play, so [cancel your subscription](#how-do-i-cancel-or-restore-formz-premium) first. Your purchase record stays with RevenueCat, the service Formz uses to check Premium, under an account ID with no email address; email [formz@x-tech.io](mailto:formz@x-tech.io) if you want it deleted too.
+
 If you can't open the app, email [formz@x-tech.io](mailto:formz@x-tech.io) from the email address of your Google account and ask us to delete your Formz account. You can also remove Formz's access in your [Google Account permissions](https://myaccount.google.com/connections). To also clear the list of forms Google Drive shared with Formz, [disconnect Formz from Drive](#why-do-my-forms-come-back-after-i-sign-in-again).
 
 ## Is Formz free?
